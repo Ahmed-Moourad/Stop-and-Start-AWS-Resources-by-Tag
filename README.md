@@ -1,7 +1,7 @@
 # Stop and Start AWS resources by Tag
  
 
-> This is a simple PHP script that uses the AWS SDK for PHP to stop and restart all Amazon EC2 instances and Amazon RDS databases within all regions **based on a set of tags**.
+> This is a simple PHP script that uses the PHP SDK for AWS to stop and restart all Amazon EC2 instances and Amazon RDS databases within all regions **based on a set of tags**.
 > 
 > This enables scenarios such as shutting off your development environment servers at the end of the day and restarting them the next morning. 
 > The script will look in every AWS region for instances that match the specified tags.
