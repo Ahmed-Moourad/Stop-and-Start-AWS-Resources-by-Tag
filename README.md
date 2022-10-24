@@ -29,9 +29,9 @@ From the Linux shell, run the stopinator.php script:
 ```bash 
 ./stopinator.php -t"Project=ERPSystem;Environment=development"
 ```
+If no arguments are supplied, stopinator script stops every Amazon EC2 and Amazon RDS instance running in an account.
 
-
-The output should look like this, indicating number of instances will be stopped in your current AWS region.
+The output should look like this, indicating number of instances will be stopped in your current AWS region:
 ```shell
 Region is us-east-1 
 	No instances to stop in region 
